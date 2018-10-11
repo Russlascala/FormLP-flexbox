@@ -1,0 +1,281 @@
+/* ========================= General Used Classes ========================= */
+/* To have a max width */
+.container-margin {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1170px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin:0;
+}
+
+/* ========================= Header Styles ========================= */
+.logo{
+    max-width:320px;
+    width:100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.textRight{
+    font-size: 18px;
+    color: #334A51;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.textRight i {
+    color:#008952;
+}
+
+.font-color{
+    color:#005B94;
+}
+
+.logoLeft{
+    margin-top: 5px;
+} 
+
+.br-smart{
+    display: none;
+}
+
+
+/* ========================= Form section Styles ========================= */
+
+.content-right{
+    width: 100%;
+    order:1;
+}
+
+.content-left{
+    order:0;
+}
+
+.bgImg{
+    background-image: url('../bgimg-main2.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100%;
+}
+
+.content-left table{
+    font-size: 20px;
+    margin-bottom:20px;
+    font-weight: bold;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.content-left h1{
+    font-size: 40px;
+}
+
+.content-left table tbody tr{
+    line-height: 30px;
+}
+
+#email-form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:80%;
+    padding:20px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #e4e4e4f1;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#email-form h2{text-align: center; font-size:30px;}
+
+#email-form i{color:#008952;}
+
+#email{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:16px;
+    width:90%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    background: #fff;
+}
+
+#btn-div{
+    text-align: center;
+    margin-top:7px;
+}
+
+.btn{
+    background-color: #008952;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border:none;
+    width:90%;
+    margin-bottom:20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #006F3A;  
+}
+.btn:hover::after{
+    content: "!";
+}
+/* ========================= Third Section Styles ========================= */
+#bg-color2{
+ 
+    background-color: rgba(228,248,255,.0) !important;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(230, 255, 228, 0.3) 35px, rgba(230, 255, 228, 0.3) 70px) !important;
+
+}
+
+.content-right-img img{
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    width:100%
+}
+.content-left-txt table{
+    margin: auto;
+    padding: 20px;
+    font-size:20px;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    
+}
+.fa-star{
+    color: #00C6FF;
+    font-size:40px;
+}
+
+.content-left-txt table tbody tr{
+    line-height: 40px;
+}
+
+.content-left-txt{
+    order:0;
+}
+.content-right-img{
+    order:1;
+}
+
+.dotLine{
+    height:2px;
+    width: 100%;
+    background: #fff;
+}
+/* Footer Styles */
+footer{
+    margin-top:20px;
+}
+footer a{
+    color: #000000;
+}
+footer a:hover{
+    color: #005B94;
+}
+.line {
+    height: 2px;
+    background: #008952;
+    width: 100%;
+    margin-bottom:20px;
+}
+
+/*   end footer section */
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints ** NOT using bootstrap
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+@media screen and (min-width:320px){
+    
+}
+
+/* Greater than 480 px */
+@media screen and (min-width:480px){
+   
+
+  
+    
+   
+
+}
+ 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) { 
+  
+    
+   
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+      /* ========================= Header Styles ========================= */
+    .container-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-content2{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .content-right{
+        width: 40%;
+    }
+
+    
+    #email-form{
+        margin-top: 120px;
+        margin-bottom: 120px;
+        float:right;
+    }
+ 
+    
+
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #email-form{
+        width:80%;
+    }
+    .container-content3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+}
