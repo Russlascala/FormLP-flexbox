@@ -98,7 +98,7 @@ body {
 #email{
     font-family: 'Source Sans Pro', sans-serif;
     font-size:20px;
-    padding:5px;
+    /* padding:5px; */
     width:90%;
     display: block;
     margin-left:auto;
