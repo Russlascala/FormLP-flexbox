@@ -16,7 +16,7 @@ body {
 
 /* ========================= Header Styles ========================= */
 .logo{
-    max-width:320px;
+    max-width:245px;
     width:100%;
     display: block;
     margin: 0 auto;
@@ -99,7 +99,8 @@ body {
 
 #email{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:16px;
+    font-size:20px;
+    padding:5px;
     width:90%;
     display: block;
     margin-left:auto;
