@@ -253,7 +253,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  
     .textRight{
         margin-bottom: 0px;
-        font-size:28px;
+        font-size:29px;
+
     }
 
 }
