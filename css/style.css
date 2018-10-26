@@ -6,6 +6,10 @@
     max-width: 1170px;
 }
 
+.hide-mobile{
+    display: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -256,6 +260,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         font-size:28px;
         
     }
+    .hide-mobile{
+        display: block;
+    }
+
 
 }
  
